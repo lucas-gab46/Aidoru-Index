@@ -2,7 +2,12 @@ h1 {
 color: rgb(16, 170, 231);
 border-top:5px solid rgb(0, 195, 255);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-;
+}
+
+body{
+
+margin:0;
+
 
 }
 h4 {
@@ -15,6 +20,17 @@ color: palevioletred;
 font-family: 'M PLUS 1p', sans-serif;
 
 
+}
+.header{
+
+color: rgb(16, 170, 231);
+padding: 80px;
+text-align:center;
+}
+.navbar{
+display: flex;
+justify-content: center;
+background: black;
 }
 
 h5 {
@@ -77,6 +93,8 @@ a:hover {
     position: fixed;
     bottom: 0%;
     right: 0%; 
+
+
 
 }
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
